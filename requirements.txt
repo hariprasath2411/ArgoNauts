@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+xarray
+netCDF4
+plotly
+langchain
+langchain-community
+chromadb
+sqlalchemy
+psycopg2-binary

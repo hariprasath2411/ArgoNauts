@@ -1,0 +1,18 @@
+{
+  "SOURCE_TYPE": "http",
+  "SOURCE_URL": "https://your-argo-server.example.org/pub/data/",
+  "FILE_PATTERN": ".nc",
+  "DOWNLOAD_DIR": "./downloads",
+  "PROCESSED_DIR": "./parquet",
+  "CHECKPOINT_FILE": "./processed_files.json",
+  "SCHEDULE_SECONDS": 21600,
+  "ENABLE_POSTGRES": false,
+  "POSTGRES_URL": "postgresql://user:pass@localhost:5432/argo",
+  "POSTGRES_TABLE": "argo_observations",
+  "DELETE_AFTER_PROCESS": false,
+  "TEMP_NAME": "TEMP",
+  "PSAL_NAME": "PSAL",
+  "LAT_NAME": "LATITUDE",
+  "LON_NAME": "LONGITUDE",
+  "JULD_NAME": "JULD"
+}
